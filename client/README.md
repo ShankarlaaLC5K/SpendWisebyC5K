@@ -1,10 +1,14 @@
 # SpendWise
 
-A personal expense tracker built using the MERN stack and TypeScript.
+A full-stack personal expense tracking application built with the MERN stack and TypeScript, designed to help users organize transactions and monitor their financial activity through an interactive dashboard.
 
-## Project
+## Live Demo
 
-SpendWise helps users manage their income and expenses in one place. It provides a simple dashboard to track transactions and understand monthly spending patterns.
+[View Live Application](https://spendwise-two-psi.vercel.app/)
+
+## GitHub Repository
+
+[View Source Code](https://github.com/ShankarlaaLC5K/SpendWisebyC5K)
 
 ## Features
 
@@ -15,9 +19,12 @@ SpendWise helps users manage their income and expenses in one place. It provides
 - Recent transactions
 - Expense category charts
 - Income category charts
-- Theme preferences
+- Theme Preferences
 - Responsive dashboard
 - MongoDB data persistence
+- Financial summaries with total balance, income, and expenses
+- Indian Rupee (INR) currency formatting
+- Interactive charts with hover effects and animations
 
 ## Technologies Used
 
@@ -56,3 +63,8 @@ SpendWise/
 ├── postman/
 ├── .gitignore
 └── README.md
+
+## Deployment
+- Frontend: Vercel
+- Backend: Vercel
+- Database: MongoDB Atlas
