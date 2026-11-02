@@ -12,7 +12,7 @@ import CategoryExpenseChart from "./components/CategoryExpensesChart";
 import IncomeCategoryChart from "./components/IncomeCategoryChart";
 import type { Transaction } from "./types/transaction";
 
-const API_URL = "http://localhost:5000/api/transactions";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/transactions`;
 
 type ApiTransaction = {
   _id: string;
